@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >PROFIL</title>
+    <link rel="shortcut icon" href="img/palembang.ico" type="image/x-icon">
+
+</head>
+
+<div> 
+    <h3>MENU MAKANAN</h3>
+    <ol> <!-- ORDER LIST-->
+        
+        <li>Ayam</li>
+        <li>Ikan</li>
+        <li>Bandeng</li>
+        <li>Ikan</li>
+        <li>UWU</li>
+    </ol>
+</div>
+
+<div> 
+    <h3>LEVEL SAMBEL </h3>
+    <ul> <!-- ORDER LIST-->
+        <li>LVL 0</li>
+        <li>LVL 1</li>
+        <li>LVL 2</li>
+        <li>LVL 3</li>   
+        <li>LVl 4</li>
+    </ul>
+</div>
+
+<div> 
+    <h3>MENU MINUMAN</h3>
+    <ol type="A"> <!-- ORDER LIST-->
+        
+        <li>ANGGUR MERAH</li>
+        <li>BANDREK</li>
+        <li>CIU</li>
+        <li>DAWER</li>
+        <li>ES TEH</li>
+
+        <ul type="square">
+            <p>Lvl Es</p>
+            <li>No Ice</li>
+            <li>Normal Ice</li>
+            <li>Extra Ice</li>
+        </ul>
+    </ol>
+</div>
+
+<hr>
+<div>
+    <h2>Daftar Walikota Palembang</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama Walikota</th>
+                <th>Foto</th>
+                <th>Periode</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>H. Harnojoyo,S.Sos.</td>
+                <td> <img src="img/pakharno.jpg" width="100dp" height="100dp" alt=""> </td>
+                <td>
+                    <Ul>
+                        <li>2014 sd 2018</li>
+                        <li>2018 sd 2020</li>
+                    </Ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Fitrianti Agustinda,S.H.</td>
+                <td> <img src="img/bukfitri.jpg" width="100dp" height="100dp" alt=""> </td>
+                <td>
+                    <Ul>
+                        <li>2026 sd 2027</li>
+                        <li>2027 sd 2028</li>
+                    </Ul>
+                </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+</div>
+
+<hr>
+
+<div>
+    <h2>Formulir Pendaftaran Walikota Palembamg</h2>
+    <form action="daftar.html" method="post"></form>
+    <div>
+        Nama Lengkap : <br>
+        <input type="text" name="nama_lengkap" id="nama_lengkap" placeholder="Enter Nama Lengkap">
+    <br>
+         Tempat Tanggal Lahir : <br>
+        <input type="text" name="ttl" id="ttl" placeholder="tempat Lahir">
+    </div>
+    <div>
+        Tgl Lahir : <br>
+        <input type="date" name="tgl_lahir" id="tgl_lahir" placeholder="Enter Nama Lengkap">
+    </div>
+    <div>
+        Jenis Kelamin : <br>
+        <input type="radio" name="jk" id="laki" value="L" checked> Laki-Laki 
+        <input type="radio" name="jk" id="perempuan" value="P"> Perempuan
+
+    </div>
+    <div>
+        Alamat : <br>
+        <textarea name="alamat" id="alamat" cols="30" rows="3"></textarea>
+    </div>
+    <div>
+        partai pengusung : <br>
+        <select name="partai" id="partai">
+            <option value="PIM">Partai Indonesia Maju</option>
+            <option value="PISLM">Partai Indonesia Selangkah lebih Maju</option>
+
+        </select>
+    </div>
+    <div>
+        <button type="submit">DAFTAR</button>
+        <button type="reset">RESET</button>
+    </div>
+
+<body>
+    
+</body>
+</html>
